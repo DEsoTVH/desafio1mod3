@@ -23,7 +23,6 @@
         <main>
             <div class="gridcontainer">
                 <div class="userinterfacebox">
-                    <p>Please pick your glove colour:</p>
                     <div class="boxinterfacelogo">
                         <img src="./assets/img/cleto1-removebg-preview.png" alt="logo de marca" class="spinlogo">
                     </div>
@@ -33,10 +32,10 @@
                         <input id="colorselect" type="color">
                         <p>Select quantity:</p>
                         <input id="amountselect" type="text">
-                        <button id="calculate">SUBMIT</button>
+                        <button onclick="showDiv()" id="calculate">SUBMIT</button>
                     </div>
                 </div>
-                <div class="shoppreview">
+                <div class="shoppreview" hidden="true" id="showpreview">
                     <div class="shopresume">
                     </div>
                 </div>

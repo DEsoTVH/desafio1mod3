@@ -28,9 +28,9 @@ header {
 }
 
 main {
-    background-color: seagreen;
     grid-area: main;
     overflow-x: auto;
+
 }
 
 footer {
@@ -94,8 +94,21 @@ footer {
 .shoppreview {
     display: flex;
     flex-direction: column;
+    background-color: rgb(95, 102, 80);
+    opacity: 93%;
+    height: 40%;
+    padding: 1em;
+    gap: 3px;
+    box-shadow: 25px 13px 5px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 25px 13px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 25px 13px 5px 1px rgba(0,0,0,0.75);
+    border-radius: 8%;
     justify-content: center;
     text-align: center;
+    align-items: center;
+    margin-top: 290px;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .shoppreview h2 {
@@ -166,7 +179,16 @@ footer {
     }
 
     .shoppreview {
-        margin-top: 20px;
+        margin-top: 20px !important; 
+        margin-bottom: 30px;
+        padding-bottom: 5px;
+    }
+
+    .spinlogo {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
 
     .userinterface {
@@ -174,11 +196,8 @@ footer {
         flex-direction: column;
         background-color: rgb(95, 102, 80);
         width: 90%;
+        height: 60%;
         border-radius: 20px;
-        box-shadow: 25px 13px 5px 1px rgba(0,0,0,0.75);
-        -webkit-box-shadow: 25px 13px 5px 1px rgba(0,0,0,0.75);
-        -moz-box-shadow: 25px 13px 5px 1px rgba(0,0,0,0.75);
-        border-radius: 8%;
     }
 
     .shopresume {
